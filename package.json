@@ -1,0 +1,31 @@
+{
+  "name": "console-cleaner",
+  "version": "1.0.0",
+  "description": "A tool to remove console statements from your code",
+  "main": "src/index.js",
+  "bin": {
+    "console-cleaner": "./bin/console-cleaner.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "console",
+    "cleaner",
+    "typescript",
+    "javascript",
+    "babel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/generator": "^7.27.0",
+    "@babel/parser": "^7.27.0",
+    "@babel/plugin-syntax-typescript": "^7.25.9",
+    "@babel/traverse": "^7.27.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "glob": "^11.0.1"
+  }
+}

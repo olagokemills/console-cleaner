@@ -1,0 +1,7 @@
+.git
+.github
+.gitignore
+.vscode
+node_modules
+npm-debug.log
+EOF
